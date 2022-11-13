@@ -1,3 +1,7 @@
+CREATE DATABASE `portfolio`;
+
+USE `portfolio`;
+
 
 
 CREATE TABLE `portfolio`.`contacts` ( 
