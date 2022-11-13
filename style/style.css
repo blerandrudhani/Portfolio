@@ -1,0 +1,334 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar {
+   
+    width: 100%;
+   padding-top: 0px;
+   padding-bottom: 0;
+   position:fixed;
+   background-color: gray;
+}
+
+.navbar-list {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0;
+    font-size: 20px;
+    
+}
+.header_style {
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    z-index: 10;
+}
+.logo {
+    width: 240px;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    font-style: italic;
+   
+}
+.float_right  {
+    float: right;
+    color: aliceblue;
+    margin-left: 10px;
+    margin-right: 15px;
+    list-style: none;
+    border-right: 1px solid aliceblue ;
+    border-right-style: outset;
+    padding-right: 15px;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    font-style: italic;
+}
+
+.no-border {
+ border: none !important;
+}
+
+.social_media {
+text-align: center;
+list-style: none;
+margin: 0;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#img{
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    
+}
+.about {
+    background-color: black;
+    height: 100vh;
+    color: aliceblue;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 40px;
+  }
+.education {
+    background-color: black;
+    height: 100vh;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 50px;
+    
+  }
+.ul_style {
+    margin-top: 70px;
+    list-style: none;
+    font-size: 25px;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.contact {
+    background-color: black;
+    height: 100vh;
+    color: aliceblue;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding-top: 70px;
+}
+.login-div {
+    height: 100vh;
+    background-color: white;
+    text-align: center;
+
+  
+}
+
+.h2 {
+    margin: 0;
+    font-size: 85px;
+    padding-right: 120px;
+    padding-left: 120px;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    
+}
+.h4 {
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 15px;
+}
+
+.skills {
+    text-align: center;
+}
+
+
+
+.paragraphs-ab {
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 25px;
+    line-height: 1.42857143;
+    color: aliceblue;
+    word-wrap: break-word;
+    padding-bottom: 40px;
+  }
+#edu-and-skills {
+    margin-top: 40px;
+    font-size: 25px;
+    word-wrap: break-word;
+}
+.skill-content{
+margin-top: 70px;    
+}
+.login-div-inside{
+    text-align: center;
+    margin-top: 100px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    width: 500px;
+	height: 500px;
+	text-align: center;
+	margin-left: 500px;
+	margin-top: 100px; 
+    background-color: white;
+
+}
+
+.login-input{
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 0.5px grey solid;
+    background-color: white;
+    padding-left: 25px;
+    font-size: 20px;
+}
+.login-btn {
+    margin-top: 50px;	
+    height: 50px;
+    width: 200px;
+    color: black;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+
+}
+.logout-btn {
+    margin-top: 50px;	
+    height: 50px;
+    width: 200px;
+    color: white;
+    background-color: rgb(190, 58, 58);
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+}
+
+#login-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+input[type=text], textarea, input[type=email]{
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.submit-btn {
+    margin-top: 50px;	
+    height: 50px;
+    width: 200px;
+    color: black;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.form-input {
+
+    width: 500px;
+    height: 50px;
+    margin-top: 25px;
+    outline: 0;
+    border: 0;
+    border-bottom: 5px solid lightblue;
+    border-style: outset;
+    color: black;
+}
+::placeholder { 
+    color:    black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+ }
+.form-labels {
+color: aliceblue;
+display: block;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+height: fit-content;
+margin-top: 25px;
+text-align: start;
+}
+
+
+
+#description{
+    height: 100px;
+}
+section,p {
+    margin: 0;
+}
+.footer-elements {
+    display: inline-flex;
+}
+.img-footer{
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+}
+.footer-p {
+font-size: 20px;
+padding-right: 20px;
+}
+
+/* adminPanel */
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #eceeef;
+  }
+  
+  .table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #eceeef;
+  }
+  
+.table tbody + tbody {
+    border-top: 2px solid #eceeef;
+  }
+  
+.table .table {
+    background-color: #fff;
+  }
+
+td {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+.logout-ap{
+    float: right;
+}
+
+@media only screen and (max-device-width: 600px) {
+  
+    .paragraphs-ab, #edu-and-skills {
+        font-size: 40px;
+    }
+    .login-div-inside{
+        margin: 0;
+        width: auto;
+    }
+}
+
+@media only screen and (min-device-width: 601px) and (max-device-width: 900px) {
+   
+      .paragraphs-ab, #edu-and-skills {
+        font-size: 40px;
+    }
+      .login-div-inside{
+        margin: 0;
+        width: auto;
+    }
+}
+
